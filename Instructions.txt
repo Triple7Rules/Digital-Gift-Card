@@ -1,0 +1,15 @@
+Instructions:
+Set Up:
+Open both .ps1 files in powershell ise then the .xcel in excel. 
+Also make sure that external drives will be set to D:
+Create Gift Card:
+In Powershell ise run the new_card script, This will create a file
+called giftcard.txt. Next it will ask for a number this is the number 
+on the gift card. Once Done It will have printed three sections of 
+charicters copy the one in the middle called 'Hash' and place it in 
+the second collom or the one called Hash in the excel document.
+Check Gift Card:
+Run the Check_Gift_Card script then copy the hash then in excel 
+press ctrl+f then paste it in if it finds something check if the 
+smaller number bellow it is the matching to the hash the the 
+excel document. If it does not find anything the card is invalid
